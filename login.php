@@ -17,10 +17,10 @@
                     Sudah Memiliki Akun? <a href="">Login</a>
                 </p>
             </form>
-            <form action="" class="login-form">
-                <input type="text" placeholder="Username">
-                <input type="password" placeholder="Password">
-                <a class="tombol" href="profil.html">login</a>
+            <form action="ceklogin.php" method="post" class="login-form">
+                <input type="text" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <input type="submit" class="tombol" value="login">
                 <p class="message">
                     Belum Memiliki Akun? <a href="#">Register</a>
                 </p>

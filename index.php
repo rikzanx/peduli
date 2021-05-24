@@ -1,3 +1,6 @@
+<?php
+	include("config.php");
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -126,10 +129,10 @@
 <body>
 	<div class="navbar">
 	 	<div class="navbar-right">
-	 		<a href="index.html" class="logo">Peduli.ID</a>
+	 		<a href="index.php" class="logo">Peduli.ID</a>
 	 		<a href="">FAQ</a>
-	 		<a href="login.html">Masuk</a>
-	 		<a href="login.html?p=daftar" class="daftar">Daftar</a>
+	 		<a href="login.php">Masuk</a>
+	 		<a href="login.php?p=daftar" class="daftar">Daftar</a>
 	 	</div>
 	</div>
 	<div class="back">
@@ -141,7 +144,7 @@
 				<h3>Peduli.ID</h3>
 				<p>Ribuan pasien di Indonesia membutuhkan bantuan biaya pengobatan,</p>
 				<p>Mari berdonasi dan membantu mereka melalu Peduli.ID</p>
-				<a href="buat-campaign.html">Buat Campaign</a>
+				<a href="buat-campaign.php">Buat Campaign</a>
 			</div>
 		</div>
 		<div class="konten">
@@ -165,6 +168,8 @@
 					<img src="images/campaign1.jpg">
 					<div class="text-campaign">
 						<p>Donasi bencana indonesia tanah longsor</p>
+
+
 						<div class="back-persen">
 							<hr width="70%">
 						</div>
@@ -202,7 +207,7 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('.campaign').click(function(){
-			window.location.href = 'pembayaran.html';
+			window.location.href = 'pembayaran.php';
 		});
 	});
 </script>

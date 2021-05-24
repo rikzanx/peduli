@@ -1,3 +1,10 @@
+<?php
+	$kondisi="ldsd";
+	if($kondisi != "login"){
+		echo "a";
+		header('Location: login.php');
+	}
+?>
 <!DOCTYPE html>
 	<html>
 	<head>
